@@ -9,7 +9,10 @@ on:
   #     - master
   schedule:
     - cron: 0 0 * * *
-    - cron: 0 10 * * *
+    - cron: 0 2 * * *
+    - cron: 0 6 * * *
+    - cron: 0 12 * * *
+    - cron: 0 16 * * *
   watch:
     types: started
     
